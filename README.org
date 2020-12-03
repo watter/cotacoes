@@ -1,0 +1,9 @@
+* Controle de Cotas
+
+Script em Python para atualizar os valores das cotas
+
+
+* Modo de Uso
+./cota.py controle.xlsx
+
+
