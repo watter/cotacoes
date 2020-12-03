@@ -2,8 +2,40 @@
 
 Script em Python para atualizar os valores das cotas
 
+** Dependências
+
+   O script tenta baixar as dependências "automagicamente", mas basicamente você
+   vai precisar dos seguintes pacotes:
+
+   + bs4
+   + lxml
+   + openpyxl
+
+   Para  instalá-los basta fazer:
+   #+begin_src bash
+   pip install <pacote>
+   #+end_src
 
 * Modo de Uso
-./cota.py controle.xlsx
+  #+begin_src bash
+  ./cota.py controle.xlsx
+  #+end_src
 
 
+  
+* Fundos de Investimento
+
+  Basicamente o script tenta baixar os dados de fundos de investimento do site
+  statusinvest.
+
+  
+* Ações
+  
+  Tem suporte limitado (hardcoded ainda) para ITSA4 e BIDI11 de ações.
+
+  
+* Melhorias
+
+  + autodetectar se é ação ou fundo imobiliário e buscar no local correto
+
+    
